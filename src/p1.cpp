@@ -17,7 +17,7 @@ long long sum(int n){
 }
 int main() {
     int n;
-    while(cin>>n){
+    if(cin>>n){
         cout << factorial(n) << endl << sum(n) << endl;
     }
     return 0;
