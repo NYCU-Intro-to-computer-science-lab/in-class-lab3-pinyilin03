@@ -12,7 +12,7 @@ void hanoi(char from, char to, char another, int amount, int num){
 }
 int main(){
     int n;
-    while(cin>>n){ 
+    if(cin>>n){ 
         hanoi('1','2','3',n,1);  
     }
     return 0;
