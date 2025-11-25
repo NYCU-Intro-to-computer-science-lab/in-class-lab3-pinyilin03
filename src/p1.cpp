@@ -2,12 +2,12 @@
 
 #include <iostream>
 using namespace std;
-int factorial(int n){
+long long factorial(int n){
     if(n==0 || n==1){
         return 1;
     }else return n*factorial(n-1);
 }
-int sum(int n){
+long long sum(int n){
     if(n==0){
         return 0;
     }
@@ -15,7 +15,6 @@ int sum(int n){
         return 1;
     }else return n+sum(n-1);
 }
-
 int main() {
     int n;
     while(cin>>n){
